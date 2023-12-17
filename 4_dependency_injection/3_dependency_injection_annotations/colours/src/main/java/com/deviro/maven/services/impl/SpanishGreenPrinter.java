@@ -1,9 +1,9 @@
 package com.deviro.maven.services.impl;
 
 import com.deviro.maven.services.GreenPrinter;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class SpanishGreenPrinter implements GreenPrinter {
 
   @Override

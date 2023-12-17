@@ -1,9 +1,9 @@
 package com.deviro.maven.services.impl;
 
 import com.deviro.maven.services.BluePrinter;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class SpanishBluePrinter implements BluePrinter {
 
   @Override
